@@ -3,12 +3,18 @@
       <p>
         <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / {{book.book}}
       </p>
-      <h1>
-        {{book.book}}
-      </h1>
-        <div v-for="chapter in book.chapters" :key="chapter.reference">
-          <router-link :to="{name: 'Chapter', params: { book_name: $route.params['book_name'], chapter_name: chapter.chapter}}">{{chapter.chapter}}</router-link>
-        </div>
+      <div style="max-width:800px; margin:auto;">
+        <h1>
+          {{book.book}}
+        </h1>
+        <span v-for="chapter in book.chapters" :key="chapter.reference">
+            <router-link :to="{name: 'Chapter', params: { book_name: $route.params['book_name'], chapter_name: chapter.chapter}}">
+              <span class="chapter-box">
+                {{chapter.chapter}}
+              </span>
+            </router-link>
+          </span>
+      </div>
   
     </div>
   </template>
@@ -44,6 +50,19 @@
   }
   a {
     color: #42b983;
+  }
+  .chapter-box {
+    width:45px; 
+    margin:5px; 
+    line-height:45px; 
+    height:45px; 
+    text-align:center; 
+    display:inline-block; 
+    border: solid black 1px; 
+    border-radius: 5px;
+  }
+  .chapter-box:hover {
+    background-color: #eee;
   }
   </style>
   

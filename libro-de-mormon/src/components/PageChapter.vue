@@ -1,5 +1,13 @@
 <template>
     <div>
+        <div v-if="book">
+            <router-link :to="{name: $route.name, params: { book_name: $route.params['book_name'], chapter_name: (chapter_number + 1)}}"> 
+                <div class="nav-button" id="nav-button-right" :class="chapter_number >= book.chapters.length ? 'disabled':''">&gt;</div>
+            </router-link>
+            <router-link :to="{name: $route.name, params: { book_name: $route.params['book_name'], chapter_name: (chapter_number - 1)}}">
+                <div class="nav-button" id="nav-button-left" :class=" chapter_number <= 1? 'disabled':''">&lt;</div>
+            </router-link>
+        </div>
         <p>
             <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / <router-link :to="{name:'Book', params: { book_name: book.book_slug }}">{{book.book}}</router-link> / Capítulo {{chapter.chapter}}
         </p>
@@ -34,8 +42,12 @@
             chapter = null
         }
         return chapter
-      }
+    },
+    chapter_number() {
+        return parseInt(this.$route.params['chapter_name'])
     }
+    }
+    
   }
   </script>
   
@@ -55,5 +67,32 @@
   a {
     color: #42b983;
   }
-  </style>
+  .nav-button {
+    position:fixed;
+    top:50%;
+    transform: translate(0, -50%);
+    border-radius: 50%;
+    height:45px;
+    line-height:45px;
+    width:45px;
+    border:black solid 1px;
+    text-align: center;
+  }
+  .nav-button:hover { 
+    background-color:#eee
+  }
+  .disabled {
+    pointer-events:none;
+    border:solid darkgrey 1px;
+    background-color: #eee;
+
+  }
+
+  #nav-button-left {
+    left:25px;
+}
+#nav-button-right {
+    right:25px;
+}
+</style>
   
