@@ -35,10 +35,11 @@ var cheerio_function = async () => {
     try {
         libro_de_mormon_info.books.forEach(async (book) => {
             for (let chapter = 1; chapter <= book.chapters_count; chapter++) {
-                var url = 'https://www.churchofjesuschrist.org/study/scriptures/bofm/' + book.slug + '/' + chapter + '?lang=eng'
+                var url = 'https://www.churchofjesuschrist.org/study/scriptures/bofm/' + book.slug + '/' + chapter + '?lang=spa'
                 const response = await axios.get(url);
                 const $ = load(response.data);
                 var verses = $('.verse');
+                // console.log(verses)
                 var chapter_json = {}
                 chapter_json['verses'] = []
                 chapter_json['chapter'] = chapter
@@ -50,6 +51,13 @@ var cheerio_function = async () => {
                     verses[verse_index].children.forEach(child => {
                         if (child.type == "text") {
                             verse_text = verse_text + child.data
+                        }
+                        if (child.type == "tag" && child.attribs.class == "study-note-ref") {
+                            child.children.forEach(verse_child => {
+                                if (verse_child.type == "text") {
+                                    verse_text = verse_text + verse_child.data
+                                }
+                            })
                         }
                     })
                     verse_json['text'] = verse_text
@@ -69,6 +77,6 @@ var cheerio_function = async () => {
         console.log('hello');
     }
 }
-cheerio_function
+cheerio_function()
 // cheerio_function();
 
