@@ -9,7 +9,7 @@
             </router-link>
         </div>
         <p>
-            <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / <router-link :to="{name:'Book', params: { book_name: book.book_slug }}">{{book.book}}</router-link> / Capítulo {{chapter.chapter}}
+            <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / <router-link :to="{name:'Book', params: { book_name: book.slug }}">{{book.name}}</router-link> / Capítulo {{chapter.chapter}}
         </p>
         <div class="hello" style="max-width:800px; margin:auto;">
             <h1>{{chapter.reference}}</h1>
@@ -32,7 +32,7 @@
     },
     computed: {
     book() {
-        return json_book.books.find(book => book.book_slug === this.$route.params['book_name'])
+        return json_book.books.find(book => book.slug === this.$route.params['book_name'])
     },
     chapter() {
         var chapter;

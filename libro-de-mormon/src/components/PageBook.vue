@@ -1,11 +1,11 @@
 <template>
     <div class="hello">
       <p>
-        <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / {{book.book}}
+        <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / {{book.name}}
       </p>
       <div style="max-width:800px; margin:auto;">
         <h1>
-          {{book.book}}
+          {{book.name}}
         </h1>
         <span v-for="chapter in book.chapters" :key="chapter.reference">
             <router-link :to="{name: 'Chapter', params: { book_name: $route.params['book_name'], chapter_name: chapter.chapter}}">
@@ -29,7 +29,7 @@
     },
     computed: {
       book() {
-        return json_book.books.find(book => book.book_slug === this.$route.params['book_name'])
+        return json_book.books.find(book => book.slug === this.$route.params['book_name'])
       }
     }
   }

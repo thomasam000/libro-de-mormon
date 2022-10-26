@@ -7,7 +7,7 @@
     <div style="max-width:800px; margin:auto;">
       <h1>Libro de Mormón</h1>
       <div v-for="book in book_of_mormon_text.books" :key="book">
-        <router-link :to="{ name: 'Book', params: { book_name: book.book_slug }}">{{book.book}}</router-link>
+        <router-link :to="{ name: 'Book', params: { book_name: book.slug }}">{{book.name}}</router-link>
       </div>
     </div>
 
