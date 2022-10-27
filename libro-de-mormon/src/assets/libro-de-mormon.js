@@ -94,7 +94,7 @@ const json_book = {
               },
               {
                 "verse": 18,
-                "text": "Por lo tanto, quisiera que supieseis que después que el Señor hubo mostrado a mi padre Lehi tantas cosas maravillosas, sí, con respecto a la destrucción de Jerusalén, he aquí, mi padre salió entre el pueblo y empezó a profetizar y a declararles concerniente a lo que él había visto y oído.",
+                "text": "Por lo tanto, quisiera que supiesen que después que el Señor hubo mostrado a mi padre Lehi tantas cosas maravillosas, sí, con respecto a la destrucción de Jerusalén, he aquí, mi padre salió entre el pueblo y empezó a profetizar y a declararles concerniente a lo que él había visto y oído.",
                 "reference": "Nefi 1 1:18"
               },
               {
@@ -104,7 +104,7 @@ const json_book = {
               },
               {
                 "verse": 20,
-                "text": "Y cuando los judíos oyeron esto, se irritaron contra él, sí, tal como contra los profetas de la antigüedad, a quienes habían echado fuera, y apedreado, y matado; y procuraron también quitarle la vida. Pero he aquí, yo, Nefi, os mostraré que las tiernas misericordias del Señor se extienden sobre todos aquellos que, a causa de su fe, él ha escogido, para hacerlos poderosos, sí, hasta tener el poder de librarse.",
+                "text": "Y cuando los judíos oyeron esto, se irritaron contra él, sí, tal como contra los profetas de la antigüedad, a quienes habían echado fuera, y apedreado, y matado; y procuraron también quitarle la vida. Pero he aquí, yo, Nefi, les mostraré que las tiernas misericordias del Señor se extienden sobre todos aquellos que, a causa de su fe, él ha escogido, para hacerlos poderosos, sí, hasta tener el poder de librarse.",
                 "reference": "Nefi 1 1:20"
               }
             ],
@@ -210,7 +210,7 @@ const json_book = {
               },
               {
                 "verse": 20,
-                "text": "Y según guardéis mis mandamientos, prosperaréis y seréis conducidos a una tierra de promisión, sí, a una tierra que yo he preparado para vosotros, una tierra escogida sobre todas las demás.",
+                "text": "Y según guardan mis mandamientos, prosperarán y serán conducidos a una tierra de promisión, sí, a una tierra que yo he preparado para ustedes, una tierra escogida sobre todas las demás.",
                 "reference": "Nefi 1 2:20"
               },
               {
@@ -246,7 +246,7 @@ const json_book = {
               },
               {
                 "verse": 2,
-                "text": "Y sucedió que me habló, diciendo: He aquí, he soñado un sueño, en el que el Señor me ha mandado que tú y tus hermanos volváis a Jerusalén.",
+                "text": "Y sucedió que me habló, diciendo: He aquí, he soñado un sueño, en el que el Señor me ha mandado que tú y tus hermanos vuelven a Jerusalén.",
                 "reference": "Nefi 1 3:2"
               },
               {
@@ -256,7 +256,7 @@ const json_book = {
               },
               {
                 "verse": 4,
-                "text": "Por lo que el Señor me ha mandado que tú y tus hermanos vayáis a la casa de Labán, y procuréis los anales y los traigáis aquí al desierto.",
+                "text": "Por lo que el Señor me ha mandado que tú y tus hermanos vayan a la casa de Labán, y procuren los anales y los traigan aquí al desierto.",
                 "reference": "Nefi 1 3:4"
               },
               {
@@ -381,7 +381,7 @@ const json_book = {
               },
               {
                 "verse": 29,
-                "text": "Y sucedió que mientras nos golpeaban con la vara, he aquí, vino un ángel del Señor y se puso ante ellos, y les habló, diciendo: ¿Por qué golpeáis a vuestro hermano menor con una vara? ¿No sabéis que el Señor lo ha escogido para ser gobernante sobre vosotros, y esto a causa de vuestras iniquidades? He aquí, subiréis de nuevo a Jerusalén y el Señor entregará a Labán en vuestras manos.",
+                "text": "Y sucedió que mientras nos golpeaban con la vara, he aquí, vino un ángel del Señor y se puso ante ellos, y les habló, diciendo: ¿Por qué golpean a su hermano menor con una vara? ¿No saben que el Señor lo ha escogido para ser gobernante sobre ustedes, y esto a causa de sus iniquidades? He aquí, subirán de nuevo a Jerusalén y el Señor entregará a Labán en sus manos.",
                 "reference": "Nefi 1 3:29"
               },
               {
@@ -412,7 +412,7 @@ const json_book = {
               },
               {
                 "verse": 3,
-                "text": "He aquí, a vosotros os consta la certeza de esto, y también sabéis que un ángel os ha hablado; ¿cómo, pues, podéis dudar? Subamos hasta allá; el Señor puede librarnos como a nuestros padres, y destruir a Labán como a los egipcios.",
+                "text": "He aquí, a ustedes les consta la certeza de esto, y también saben que un ángel les ha hablado; ¿cómo, pues, pueden dudar? Subamos hasta allá; el Señor puede librarnos como a nuestros padres, y destruir a Labán como a los egipcios.",
                 "reference": "Nefi 1 4:3"
               },
               {
@@ -750,7 +750,7 @@ const json_book = {
             "verses": [
               {
                 "verse": 1,
-                "text": "Y ahora quisiera que supieseis que cuando mi padre Lehi hubo concluido de profetizar concerniente a su posteridad, el Señor le habló de nuevo, diciendo que no convenía que él, Lehi, llevase a su familia sola al desierto; sino que sus hijos debían tomar mujeres por esposas para levantar posteridad para el Señor en la tierra de promisión.",
+                "text": "Y ahora quisiera que supiesen que cuando mi padre Lehi hubo concluido de profetizar concerniente a su posteridad, el Señor le habló de nuevo, diciendo que no convenía que él, Lehi, llevase a su familia sola al desierto; sino que sus hijos debían tomar mujeres por esposas para levantar posteridad para el Señor en la tierra de promisión.",
                 "reference": "Nefi 1 7:1"
               },
               {
@@ -785,32 +785,32 @@ const json_book = {
               },
               {
                 "verse": 8,
-                "text": "Y yo, Nefi, afligido por la dureza de sus corazones, les hablé, sí, a Lamán y a Lemuel, diciendo: He aquí, vosotros sois mis hermanos mayores y, ¿cómo es que sois tan duros de corazón, y tan ciegos de entendimiento, que tenéis necesidad de que yo, vuestro hermano menor, tenga que hablaros, sí, y daros el ejemplo?",
+                "text": "Y yo, Nefi, afligido por la dureza de sus corazones, les hablé, sí, a Lamán y a Lemuel, diciendo: He aquí, ustedes son mis hermanos mayores y, ¿cómo es que son tan duros de corazón, y tan ciegos de entendimiento, que tienen necesidad de que yo, su hermano menor, tenga que hablarles, sí, y darles el ejemplo?",
                 "reference": "Nefi 1 7:8"
               },
               {
                 "verse": 9,
-                "text": "¿Cómo es que no habéis escuchado la palabra del Señor?",
+                "text": "¿Cómo es que no han escuchado la palabra del Señor?",
                 "reference": "Nefi 1 7:9"
               },
               {
                 "verse": 10,
-                "text": "¿Cómo es que os habéis olvidado de haber visto a un ángel del Señor?",
+                "text": "¿Cómo es que les han olvidado de haber visto a un ángel del Señor?",
                 "reference": "Nefi 1 7:10"
               },
               {
                 "verse": 11,
-                "text": "Sí, y, ¿cómo es que habéis olvidado cuán grandes cosas el Señor ha hecho por nosotros, librándonos de las manos de Labán, y también ayudándonos a obtener los anales?",
+                "text": "Sí, y, ¿cómo es que han olvidado cuán grandes cosas el Señor ha hecho por nosotros, librándonos de las manos de Labán, y también ayudándonos a obtener los anales?",
                 "reference": "Nefi 1 7:11"
               },
               {
                 "verse": 12,
-                "text": "Sí, y, ¿cómo es que habéis olvidado que el Señor tiene poder de hacer todas las cosas según su voluntad, para los hijos de los hombres, si es que ejercen la fe en él? Por tanto, seámosle fieles.",
+                "text": "Sí, y, ¿cómo es que han olvidado que el Señor tiene poder de hacer todas las cosas según su voluntad, para los hijos de los hombres, si es que ejercen la fe en él? Por tanto, seámosle fieles.",
                 "reference": "Nefi 1 7:12"
               },
               {
                 "verse": 13,
-                "text": "Y si es que le somos fieles, obtendremos la tierra de promisión; y sabréis en un tiempo venidero que será cumplida la palabra del Señor respecto a la destrucción de Jerusalén; porque todo cuanto el Señor ha dicho respecto de su destrucción se cumplirá.",
+                "text": "Y si es que le somos fieles, obtendremos la tierra de promisión; y sabrán en un tiempo venidero que será cumplida la palabra del Señor respecto a la destrucción de Jerusalén; porque todo cuanto el Señor ha dicho respecto de su destrucción se cumplirá.",
                 "reference": "Nefi 1 7:13"
               },
               {
@@ -820,7 +820,7 @@ const json_book = {
               },
               {
                 "verse": 15,
-                "text": "Y ahora bien, he aquí os digo que si volvéis a Jerusalén, también pereceréis con ellos. Así pues, si lo preferís, subid allá, y recordad las palabras que os hablo, que si vais, también pereceréis; porque así me constriñe a hablar el Espíritu del Señor.",
+                "text": "Y ahora bien, he aquí les digo que si vuelven a Jerusalén, también perecerá con ellos. Así pues, si lo preferieren, suban allá, y recuerden las palabras que les hablo, que si van, también perecerán; porque así me constriñe a hablar el Espíritu del Señor.",
                 "reference": "Nefi 1 7:15"
               },
               {
@@ -881,7 +881,7 @@ const json_book = {
               },
               {
                 "verse": 4,
-                "text": "Pero he aquí, Lamán y Lemuel, temo en gran manera por causa de vosotros; pues he aquí, me pareció ver en mi sueño un desierto obscuro y lúgubre.",
+                "text": "Pero he aquí, Lamán y Lemuel, temo en gran manera por causa de ustedes; pues he aquí, me pareció ver en mi sueño un desierto obscuro y lúgubre.",
                 "reference": "Nefi 1 8:4"
               },
               {
@@ -931,7 +931,7 @@ const json_book = {
               },
               {
                 "verse": 14,
-                "text": "Y miré para ver de dónde procedía, y vi su fuente no muy lejos de mí; y en su manantial vi a vuestra madre, Saríah, y a Sam y a Nefi; y estaban allí como si no supieran a dónde ir.",
+                "text": "Y miré para ver de dónde procedía, y vi su fuente no muy lejos de mí; y en su manantial vi a su madre, Saríah, y a Sam y a Nefi; y estaban allí como si no supieran a dónde ir.",
                 "reference": "Nefi 1 8:14"
               },
               {
@@ -1133,7 +1133,7 @@ const json_book = {
               },
               {
                 "verse": 8,
-                "text": "sí, y que saldría y proclamaría en el desierto: Preparad el camino del Señor y enderezad sus sendas, porque entre vosotros se halla uno a quien no conocéis; y más poderoso es que yo, y de quien no soy digno de desatar la correa de su zapato. Y mi padre habló mucho tocante a esta cosa.",
+                "text": "sí, y que saldría y proclamaría en el desierto: Preparen el camino del Señor y enderecen sus sendas, porque entre ustedes se halla uno a quien no conocen; y más poderoso es que yo, y de quien no soy digno de desatar la correa de su zapato. Y mi padre habló mucho tocante a esta cosa.",
                 "reference": "Nefi 1 10:8"
               },
               {
@@ -1198,7 +1198,7 @@ const json_book = {
               },
               {
                 "verse": 21,
-                "text": "Por lo que, si habéis procurado hacer lo malo en los días de vuestra probación, entonces os halláis impuros ante el tribunal de Dios; y ninguna cosa impura puede morar con Dios; así que, debéis ser desechados para siempre.",
+                "text": "Por lo que, si han procurado hacer lo malo en los días de su probación, entonces les hallan impuros ante el tribunal de Dios; y ninguna cosa impura puede morar con Dios; así que, deben ser desechados para siempre.",
                 "reference": "Nefi 1 10:21"
               },
               {
@@ -1440,7 +1440,7 @@ const json_book = {
               },
               {
                 "verse": 9,
-                "text": "Y me dijo: ¿Te acuerdas de los doce apóstoles del Cordero? He aquí, ellos son los que juzgarán a las doce tribus de Israel; por tanto, los doce ministros de tu posteridad serán juzgados por ellos, pues vosotros sois de la casa de Israel.",
+                "text": "Y me dijo: ¿Te acuerdas de los doce apóstoles del Cordero? He aquí, ellos son los que juzgarán a las doce tribus de Israel; por tanto, los doce ministros de tu posteridad serán juzgados por ellos, pues ustedes son de la casa de Israel.",
                 "reference": "Nefi 1 12:9"
               },
               {
@@ -1824,7 +1824,7 @@ const json_book = {
               },
               {
                 "verse": 17,
-                "text": "Mi corazón ha estado agobiado de pesar de cuando en cuando, pues he temido que por la dureza de vuestros corazones, el Señor vuestro Dios viniese en la plenitud de su ira sobre vosotros, y fueseis talados y destruidos para siempre;",
+                "text": "Mi corazón ha estado agobiado de pesar de cuando en cuando, pues he temido que por la dureza de sus corazones, el Señor su Dios viniese en la plenitud de su ira sobre ustedes, y fuesen talados y destruidos para siempre;",
                 "reference": "Nefi 2 1:17"
               },
               {
@@ -1844,7 +1844,7 @@ const json_book = {
               },
               {
                 "verse": 21,
-                "text": "Y ahora bien, para que mi alma se regocije en vosotros, y mi corazón salga de este mundo con gozo por causa vuestra, a fin de que no sea yo llevado con pena y dolor a la tumba, levantaos del polvo, hijos míos, y sed hombres, y estad resueltos en una sola voluntad y con un solo corazón, unidos en todas las cosas, para que no descendáis al cautiverio;",
+                "text": "Y ahora bien, para que mi alma se regocije en ustedes, y mi corazón salga de este mundo con gozo por causa suya, a fin de que no sea yo llevado con pena y dolor a la tumba, levántense del polvo, hijos míos, y sean hombres, y estén resueltos en una sola voluntad y con un solo corazón, unidos en todas las cosas, para que no desciendan al cautiverio;",
                 "reference": "Nefi 2 1:21"
               },
               {
@@ -1859,7 +1859,7 @@ const json_book = {
               },
               {
                 "verse": 24,
-                "text": "No os rebeléis más en contra de vuestro hermano, cuyas manifestaciones han sido gloriosas, y quien ha guardado los mandamientos desde la época en que salimos de Jerusalén; y el cual ha sido un instrumento en las manos de Dios para traernos a la tierra de promisión; porque si no hubiese sido por él, habríamos perecido de hambre en el desierto; no obstante, habéis intentado quitarle la vida; sí, y él ha padecido mucha angustia a causa de vosotros.",
+                "text": "No os rebeléis más en contra de su hermano, cuyas manifestaciones han sido gloriosas, y quien ha guardado los mandamientos desde la época en que salimos de Jerusalén; y el cual ha sido un instrumento en las manos de Dios para traernos a la tierra de promisión; porque si no hubiese sido por él, habríamos perecido de hambre en el desierto; no obstante, habéis intentado quitarle la vida; sí, y él ha padecido mucha angustia a causa de vosotros.",
                 "reference": "Nefi 2 1:24"
               },
               {
