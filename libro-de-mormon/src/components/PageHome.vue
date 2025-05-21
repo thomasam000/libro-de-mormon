@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import json_book from '@/assets/libro-de-mormon'
+import json_book from '@/assets/libro-de-mormon-americano'
 
 export default {
   name: 'HelloWorld',
