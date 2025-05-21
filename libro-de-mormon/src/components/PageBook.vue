@@ -1,7 +1,7 @@
 <template>
     <div class="hello">
       <p>
-        <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / {{book.name}}
+        <router-link :to="{name:'Library'}">Libro de Mormón</router-link> / {{book.name}}
       </p>
       <div style="max-width:800px; margin:auto;">
         <h1>
@@ -20,7 +20,7 @@
   </template>
   
   <script>
-  import json_book from '@/assets/libro-de-mormon'
+  import json_book from '@/assets/libro-de-mormon-americano'
   
   export default {
     name: 'HelloWorld',

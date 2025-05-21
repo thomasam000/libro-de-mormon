@@ -9,7 +9,7 @@
             </router-link>
         </div>
         <p>
-            <router-link :to="{name:'Home'}">Libro de Mormón</router-link> / <router-link :to="{name:'Book', params: { book_name: book.slug }}">{{book.name}}</router-link> / Capítulo {{chapter.chapter}}
+            <router-link :to="{name:'Library'}">Libro de Mormón</router-link> / <router-link :to="{name:'Book', params: { book_name: book.slug }}">{{book.name}}</router-link> / Capítulo {{chapter.chapter}}
         </p>
         <div class="hello" style="max-width:800px; margin:auto;">
             <h1>{{chapter.reference}}</h1>
@@ -23,7 +23,7 @@
   </template>
   
   <script>
-  import json_book from '@/assets/libro-de-mormon'
+import json_book from '@/assets/libro-de-mormon-americano'
   
   export default {
     name: 'HelloWorld',
