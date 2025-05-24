@@ -6,6 +6,8 @@
     </p>
     <div style="max-width:800px; margin:auto;">
       <h1>Libro de Mormón</h1>
+      <h2>Edición Latinoamérica</h2>
+
       <div v-for="book in book_of_mormon_text.books" :key="book">
         <router-link :to="{ name: 'Book', params: { book_name: book.slug }}">{{book.name}}</router-link>
       </div>
@@ -44,6 +46,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #0a1c6b;
 }
 </style>

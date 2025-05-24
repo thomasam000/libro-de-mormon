@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
         <input type="text" v-model="current_word">
         <button @click="test_conjugator">test conjugator</button>
@@ -150,4 +150,4 @@ export default {
 
 </script>
 <style>
-</style>
+</style> -->
