@@ -72,7 +72,7 @@ import json_book from '@/assets/libro-de-mormon-americano'
           if (this.previous_book_index >= 0) {
             return json_book.books[this.previous_book_index].slug
           } else {
-            return ""
+            return this.book.slug
           }
         } else {
           return this.book.slug
@@ -104,7 +104,7 @@ import json_book from '@/assets/libro-de-mormon-americano'
           if (this.next_book_index < 1000) {
             return json_book.books[this.next_book_index].slug
           } else {
-            return ""
+            return this.book.slug
           }
         } else {
           return this.book.slug
@@ -153,7 +153,10 @@ import json_book from '@/assets/libro-de-mormon-americano'
     text-align: center;
   }
   .nav-button:hover { 
-    background-color:#eee
+    background-color:#f8f8f8;
+  }
+  .nav-button:active { 
+    background-color:#eee;
   }
   .chapter-container {
     margin: 0 auto 50px;
@@ -180,7 +183,10 @@ import json_book from '@/assets/libro-de-mormon-americano'
     text-align: center;
   }
   .nav-button:hover { 
-    background-color:#eee
+    background-color:#f8f8f8;
+  }
+  .nav-button:active { 
+    background-color:#eee;
   }
   #nav-button-left {
     left:25px;

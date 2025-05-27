@@ -125,7 +125,10 @@
     text-align: center;
   }
   .nav-button:hover { 
-    background-color:#eee
+    background-color:#f8f8f8;
+  }
+  .nav-button:active { 
+    background-color:#eee;
   }
   .chapter-container {
     margin: 0 auto 50px;
@@ -152,7 +155,10 @@
     text-align: center;
   }
   .nav-button:hover { 
-    background-color:#eee
+    background-color:#f8f8f8;
+  }
+  .nav-button:active { 
+    background-color:#eee;
   }
   #nav-button-left {
     left:25px;
