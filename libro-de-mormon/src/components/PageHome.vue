@@ -45,7 +45,11 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
+p {
+  font-size: 20px;
+}
 a {
   color: #0a1c6b;
+  font-size: 20px;
 }
 </style>

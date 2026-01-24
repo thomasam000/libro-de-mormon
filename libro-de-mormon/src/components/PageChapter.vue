@@ -135,8 +135,12 @@ import json_book from '@/assets/libro-de-mormon-americano'
     margin: 0 10px;
   }
   a {
-  color: #0a1c6b;
-}
+    color: #0a1c6b;
+    font-size: 20px;
+  }
+  p {
+      font-size: 20px;
+  }
   .nav-button {
     background-color: white;
   }

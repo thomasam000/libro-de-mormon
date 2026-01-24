@@ -94,12 +94,16 @@
   }
   a {
   color: #0a1c6b;
+  font-size: 20px;
+}
+p {
+    font-size: 20px;
 }
   .chapter-box {
-    width:45px; 
+    width:55px; 
     margin:5px; 
-    line-height:45px; 
-    height:45px; 
+    line-height:55px; 
+    height:55px; 
     text-align:center; 
     display:inline-block; 
     border: solid black 1px; 
